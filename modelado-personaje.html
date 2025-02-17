@@ -26,22 +26,12 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: MyResume
-  * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
-  * Updated: Jun 29 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body class="portfolio-details-page">
 
   <header id="header" class="header d-flex flex-column justify-content-center">
-
     <i class="header-toggle d-xl-none bi bi-list"></i>
-
     <nav id="navmenu" class="navmenu">
       <ul>
         <li><a href="index.html" class="active"><i class="bi bi-house navicon"></i><span>Inicio</span></a></li>
@@ -50,11 +40,9 @@
         <li><a href="index.html"><i class="bi bi-images navicon"></i><span>Portafolio</span></a></li>
       </ul>
     </nav>
-
   </header>
 
   <main class="main">
-
     <!-- Page Title -->
     <div class="page-title" data-aos="fade">
       <div class="container">
@@ -66,7 +54,7 @@
         </nav>
         <h1>Enigma Eterno</h1>
       </div>
-    </div><!-- End Page Title -->
+    </div>
 
     <!-- Portfolio Details Section -->
     <section id="portfolio-details" class="portfolio-details section">
@@ -96,11 +84,13 @@
               </div>
             </div>
             <div class="swiper-slide">
-              <div class="sketchfab-embed-wrapper"> <iframe title="Diorama - Modelado 3D" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; 
-xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/55aa2ae5566e470cb39db9e2b5b68a10/embed?autostart=1&annotations_visible=1&ui_theme=dark">
- </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> <a href="https://sketchfab.com/3d-models/diorama-modelado-3d-55aa2ae5566e470cb39db9e2b5b68a10?utm_medium=embed&utm_campaign=share-popup&utm_content=55aa2ae5566e470cb39db9e2b5b68a10" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> Diorama - Modelado 3D </a> by 
-<a href="https://sketchfab.com/denunciadorufian492?utm_medium=embed&utm_campaign=share-popup&utm_content=55aa2ae5566e470cb39db9e2b5b68a10" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> Juancamilo492 </a>
- on <a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=55aa2ae5566e470cb39db9e2b5b68a10" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>
+              <div class="sketchfab-embed-wrapper">
+                <iframe title="Diorama - Modelado 3D" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/55aa2ae5566e470cb39db9e2b5b68a10/embed?autostart=1&annotations_visible=1&ui_theme=dark">
+                </iframe>
+                <div class="swiper-caption">
+                  Diorama 3D del escenario principal
+                </div>
+              </div>
             </div>
           </div>
           <div class="swiper-button-prev"></div>
@@ -109,7 +99,6 @@ xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport executi
         </div>
 
         <div class="row justify-content-between gy-4 mt-4">
-
           <div class="col-lg-8" data-aos="fade-up">
             <div class="portfolio-description">
               <h2>Detalles del proyecto</h2>
@@ -131,16 +120,13 @@ xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport executi
               <ul>
                 <li><strong>Categoría</strong> Videojuego/Realidad Virtual</li>
                 <li><strong>Materia</strong> Narrativas en Realidad Virtual y Mixta</li>
-                <li><strong>Fecha de desarrollo</strong> Segundo semestre de 2024 </li>
+                <li><strong>Fecha de desarrollo</strong> Segundo semestre de 2024</li>
               </ul>
             </div>
           </div>
-
         </div>
-
       </div>
-
-    </section><!-- /Portfolio Details Section -->
+    </section>
 
     <section class="return-button-section py-4">
       <div class="container-fluid bg-light">
@@ -151,7 +137,6 @@ xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport executi
         </div>
       </div>
     </section>
-
   </main>
 
   <footer id="footer" class="footer position-relative light-background">
@@ -204,14 +189,14 @@ xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport executi
       height: auto;
     }
 
-    .video-container {
+    .sketchfab-embed-wrapper {
       width: 100%;
       max-width: 1920px;
-      padding-top: 56.25%; /* 16:9 Aspect Ratio */
+      aspect-ratio: 16/9;
       position: relative;
     }
 
-    .video-container iframe {
+    .sketchfab-embed-wrapper iframe {
       position: absolute;
       top: 0;
       left: 0;
@@ -238,5 +223,4 @@ xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport executi
   </style>
 
 </body>
-
 </html>
